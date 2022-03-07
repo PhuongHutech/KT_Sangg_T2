@@ -17,5 +17,14 @@ namespace KTra
             InitializeComponent();
         }
 
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            String txtUS = txtUserName.Text;
+            String txtP = txtPassword.Text;
+            if(txtUS == "admin" && txtP == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công!");
+            }
+        }
     }
 }
