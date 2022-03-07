@@ -23,8 +23,12 @@ namespace KTra
             String txtP = txtPassword.Text;
             if(txtUS == "admin" && txtP == "admin")
             {
-                MessageBox.Show("Đăng nhập thành công!");
+                Form2 f = new Form2();
+                f.Show();
+                Visible = false;
+                this.Hide();
             }
+
         }
     }
 }
