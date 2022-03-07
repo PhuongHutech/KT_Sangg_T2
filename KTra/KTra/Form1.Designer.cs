@@ -33,6 +33,7 @@ namespace KTra
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,11 +68,21 @@ namespace KTra
             this.txtPassword.Size = new System.Drawing.Size(125, 27);
             this.txtPassword.TabIndex = 1;
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(331, 263);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(94, 29);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
@@ -89,6 +100,7 @@ namespace KTra
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 
